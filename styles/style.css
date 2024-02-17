@@ -1,0 +1,60 @@
+#brand-img {
+    width: 100px;
+    height: 60px;
+    margin: 0 auto;
+    display: block;
+}
+
+#card-text {
+   position: relative;
+   left: 250px;
+   padding: 50px;
+    color: white;
+}
+
+.card {
+    width: 50rem;
+    height: 20rem;
+    object-fit: cover;
+  }
+
+  #card1{
+    height: 17rem;
+    width: 50rem;
+  }
+
+  #card2{
+    height: 17rem;
+    width: 50rem;
+  }
+
+  #menucon{
+margin-bottom: 100px;
+
+  }
+
+  #img2{
+    height: 17rem;
+    object-fit: cover;
+  }
+
+  #img1{
+height: 17rem;
+object-fit: cover;
+  }
+
+  .cardscon{
+
+margin-left: 30px;
+margin-bottom: 25px;
+
+  }
+
+.navbar{
+
+background-color: transparent;
+position: relative;
+bottom: 650px;
+
+
+}
