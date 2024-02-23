@@ -9,6 +9,7 @@
       integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
       crossorigin="anonymous"
     />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="./styles/style.css">
     <title>Burger Plus</title>
     <style>
@@ -40,7 +41,7 @@
               <span class="visually-hidden">Next</span>
             </button>
           </div>
-
+<!-- Nav sections -->
       <nav class="navbar navbar-expand-lg ">
         <div class="container">
           <a class="navbar-brand" href="#"><img src="images/logo.png" alt="logo" id="brand-img"></a>
@@ -94,12 +95,32 @@
         <div class="cardscon d-flex gap-4 flex-column flex-md-row p-3">
 
             <div class="card border-0 img-fluid" id="card1">
-                <img src="images/pb-2-1.jpg" class="card-img-overlay p-0 m-0" alt="..." id="img1">
-                
+                <img src="images/pb-2-1.jpg" class="card-img" alt="..." id="img1">
+                <div class="card-img-overlay d-flex flex-column align-items-end justify-content-center" id="cardtext">
+                  <h1 class="fs-2" id="txs">  GET YOUR FREE</h1>
+                  <p class="fw-bolder" id="cxs">CHEESE FRIES</p>
+                  <button
+                  type="button"
+                  class="btn btn-dark border-0 rounded-1 mt-2 p-2 btn-lg"
+                  id="btncard1">
+                  LEARN MORE
+
+                  </button>
+                </div>
               </div>
 
             <div class="card border-0 img-fluid" id="card2">
-                <img src="images/pb-2-2.jpg" class="card-img-overlay p-0 m-0" alt="..." id="img2">
+                <img src="images/pb-2-2.jpg" class="card-img" alt="..." id="img2">
+                <div class="card-img-overlay d-flex flex-column align-items-end justify-content-center" id="cardtext">
+                  <h1 class="fs-2" id="txs"> CRISPY CHICKEN</h1>
+                  <p class="fw-bolder" id="cxs">BURGER IS BACK!</p>
+                  <button
+                  type="button"
+                  class="btn btn-dark border-0 rounded-1 mt-2 p-2 btn-lg">
+                  LEARN MORE
+
+                  </button>
+                </div>
                 
               </div>
         </div>
@@ -108,72 +129,150 @@
 
 
 <!-- Menu section -->
+
+<!-- <div class="card" style="width: 20rem;">
+  <img src="/images/burger-12.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+</div> -->
+
+
+
 <div class="d-flex gap-4  flex-md-row " id="menucon">
-<div class="card" style="width: 18rem; height: 20rem;">
+<div class="card" style="width: 18rem; height: 30rem;">
     <img src="/images/burger-11.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">CRISPY CHICKEN</h5>
+      <div class="star">
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <div>
+          <button class="heart"><i class="far fa-heart"></i></button>
+        </div>
+      <h4 class="card-title">CRISPY CHICKEN</h4>
       <p class="card-text">Chicken breast, chilli sauce, tomatoes, pickles, coleslaw</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
-    </div>
+      <a href="#" class="btn btn-primary">$9.99</a>
+        <button class="bagbtn"><i class="fas fa-shopping-bag"> Add to cart</i></button>
+      </div>
+    </div>     
   </div>
-<div class="card" style="width: 18rem;">
+
+<div class="card" style="width: 18rem;  height: 30rem">
     <img src="/images/burger-12.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="star">
+        <i class="fas fa-star"> </i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <h5 class="card-title">ULTIMATE BACON</h5>
+      <p class="card-text">House beef patty, cheddar cheese, bacon, onion, mustard</p>
+      <a href="#" class="btn btn-primary">$8.99</a>
     </div>
   </div>
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: 18rem;  height: 30rem">
     <img src="/images/burger-13.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="star">
+        <i class="fas fa-star"> </i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <div>
+        <i class="fas heart"></i>
+      </div>
+      <h5 class="card-title">BLACK SHEEP</h5>
+      <p class="card-text">American cheese, tomato relish, avocado, lettuce, red onion</p>
+      <a href="#" class="btn btn-primary">$9.75</a>
     </div>
   </div>
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: 18rem;  height: 30rem">
     <img src="/images/burger-14.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="star">
+        <i class="fas fa-star"> </i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <h5 class="card-title">DOUBLE BURGER</h5>
+      <p class="card-text">2 beef patties, cheddar cheese, mustard, pickles, tomatoes</p>
+      <a href="#" class="btn btn-primary">$10.35</a>
     </div>
   </div>
 </div>
 
-<div class="d-flex gap-4">
-<div class="card" style="width: 18rem;">
+<div class="d-flex gap-4  flex-md-row" id="menucon">
+<div class="card" style="width: 18rem;  height: 30rem">
     <img src="/images/burger-15.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="star">
+        <i class="fas fa-star"> </i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <h5 class="card-title">TURKEY BURGER</h5>
+      <p class="card-text">Turkey, cheddar cheese, onion, lettuce, tomatoes, pickles</p>
+      <a href="#" class="btn btn-primary">$8.95</a>
     </div>
   </div>
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: 18rem;  height: 30rem">
     <img src="/images/burger-16.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="star">
+        <i class="fas fa-star"> </i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <h5 class="card-title">SMOKEY HOUSE
+      </h5>
+      <p class="card-text">Beef patty, cheddar cheese, onion, lettuce, tomatoes, pickles</p>
+      <a href="#" class="btn btn-primary">$9.50</a>
     </div>
   </div>
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: 18rem;  height: 30rem">
     <img src="/images/burger-17.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="star">
+        <i class="fas fa-star"> </i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="fas fa-star"></i>
+        <i class="far fa-star"></i>
+      </div>
+      <h5 class="card-title">CLASSIC BURGER</h5>
+      <p class="card-text">Beef, cheddar cheese, ketchup, mustard, pickles, onion</p>
+      <a href="#" class="btn btn-primary">$7.95</a>
     </div>
   </div>
-<div class="card" style="width: 18rem;">
+<div class="card" style="width: 18rem;  height: 30rem">
     <img src="/images/burger-18.jpg" class="card-img-top" alt="...">
     <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-      <a href="#" class="btn btn-primary">Go somewhere</a>
+      <div class="star">
+              <i class="fas fa-star"> </i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+      </div>
+      
+      <h5 class="card-title">VEGAN BURGER</h5>
+      <p class="card-text">Mushroom patty, vegan cheese, lettuce, tomatoes, avocado</p>
+      <a class="btn btn-primary">$8.95</a>
     </div>
   </div>
 </div>

@@ -20,16 +20,17 @@
 
   #card1{
     height: 17rem;
-    width: 50rem;
+    width: 28rem;
   }
 
   #card2{
     height: 17rem;
-    width: 50rem;
+    width: 40rem;
   }
 
   #menucon{
-margin-bottom: 100px;
+  margin-bottom: 100px;
+  margin-left: 7rem;
 
   }
 
@@ -40,11 +41,12 @@ margin-bottom: 100px;
 
   #img1{
 height: 17rem;
+
 object-fit: cover;
   }
 
   .cardscon{
-
+justify-content: center;
 margin-left: 30px;
 margin-bottom: 25px;
 
@@ -58,3 +60,76 @@ bottom: 650px;
 
 
 }
+
+
+.btn{
+  background-color: #642F22;
+  border: #642F22;
+}
+
+.btn:hover {
+  color: #642F22;
+}
+
+.fa-star{
+  color: gold;
+  padding: 0px;
+  margin: 0px;
+}
+
+.btn-primary{
+  color: #F7BE28;
+  /* font-size: 1.53rem; */
+  
+}
+.heart {
+  margin-left: 200px;
+  position: relative;
+  bottom: 30px;
+  border: none;
+  background-color: transparent;
+  font-size: 25px;
+  color: grey;
+}
+
+.heart:hover {
+  color: red;
+}
+
+.fa-shopping-bag {
+  /* margin-left: 110px; */
+  position: relative;
+}
+
+.bagbtn{
+  margin-left: 30px;
+  background-color: #F7BE28;
+  border: none;
+  padding: 10px;
+  transition:   0.3s ease-in-out, color 0.3s ease-in-out;
+}
+
+.card-title{
+ margin-right: 10px;
+  
+}
+#cxs{
+  color: #6f5e4d;
+  font-family: "Roboto condensed";
+  line-height: 0.8;
+  font-size: 2.3rem;
+}
+
+.bagbtn:hover{
+  
+}
+/* @media (max-width: 576px) {
+  #cxs {
+    font-size: 1.5rem;  /* mobile size */
+  }
+/* #btncard1 {
+  background-color: #e3000e;
+  width: 9rem;
+} */
+
+} */
