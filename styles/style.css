@@ -79,9 +79,8 @@ bottom: 650px;
 
 .btn-primary{
   color: #F7BE28;
-  /* font-size: 1.53rem; */
-  
 }
+
 .heart {
   margin-left: 200px;
   position: relative;
@@ -120,16 +119,14 @@ bottom: 650px;
   font-size: 2.3rem;
 }
 
-.bagbtn:hover{
-  
-}
-/* @media (max-width: 576px) {
+
+
+ @media (max-width: 576px) {
   #cxs {
-    font-size: 1.5rem;  /* mobile size */
+    font-size: 1.5rem; 
   }
-/* #btncard1 {
+ #btncard1 {
   background-color: #e3000e;
   width: 9rem;
-} */
-
-} */
+} 
+} 
